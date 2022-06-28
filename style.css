@@ -46,11 +46,9 @@ body {
   display: block;
 }
 
-#featured a,
-#link {
+#featured a {
   text-align: left;
   display: block;
-  color: teal;
 }
 
 .ingredients,
@@ -70,4 +68,8 @@ ol li p:first-of-type {
 
 li {
   margin-bottom: 1rem;
+}
+
+a {
+  color: teal;
 }
