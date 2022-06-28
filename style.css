@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+#logo {
+  width: 170px;
+  margin-bottom: 1rem;
+}
+
+.nav {
+  background-color: rgba(255, 217, 119, 0.1);
+  border-top: 1px solid rgb(255, 217, 119);
+  padding: 0.5rem 0;
+  color: darkgreen;
+  margin-bottom: 3rem;
+}
+
+.content {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.content img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 5px 10px rgba(220, 220, 220, 0.2);
+}
+
+#sallyImg {
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+#featured {
+  border-left: 1px solid rgb(255, 217, 119);
+  padding-left: 1rem;
+}
+
+#featured span {
+  color: coral;
+  font-weight: 600;
+  text-align: left;
+  display: block;
+}
+
+#featured a,
+#link {
+  text-align: left;
+  display: block;
+  color: teal;
+}
+
+.ingredients,
+.method {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.ingredients p,
+ol li p:first-of-type {
+  font-weight: bold;
+}
+
+.header {
+  border-bottom: 1px solid lightblue;
+}
+
+li {
+  margin-bottom: 1rem;
+}
